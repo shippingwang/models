@@ -1,5 +1,9 @@
 中文 | [English](README_en.md)
 
+# 分类库已更新，请参考[PaddleClas](https://github.com/PaddlePaddle/PaddleClas)
+
+---
+
 # 图像分类以及模型库
 
 ## 内容

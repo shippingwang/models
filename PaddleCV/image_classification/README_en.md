@@ -1,5 +1,7 @@
 English | [中文](README.md)
 
+# This Model Zoo will not be maintained past 2020/04, Welcome to use [PaddleClas](https://github.com/PaddlePaddle/PaddleClas)
+
 # Image Classification and Model Zoo
 
 ## Table of Contents

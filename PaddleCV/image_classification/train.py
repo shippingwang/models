@@ -21,6 +21,7 @@ import time
 import sys
 import logging
 
+from deprecated import deprecated
 import numpy as np
 import paddle
 import paddle.fluid as fluid
@@ -292,6 +293,10 @@ def train(args):
             save_model(args, exe, train_prog, pass_id)
 
 
+@deprecated(
+    version='',
+    reason="This Model Zoo will not be maintained past 2020/04, Please refer to https://github.com/PaddlePaddle/PaddleClas for more information"
+)
 def main():
     args = parse_args()
     if int(os.getenv("PADDLE_TRAINER_ID", 0)) == 0:
